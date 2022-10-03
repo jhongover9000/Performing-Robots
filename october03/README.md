@@ -11,6 +11,8 @@
 
 For this assignment, we had to create a body for the platform robots. Our concept revolved around making a cactus cat. We wanted to make a sturdy robot that could bump into people and things without breaking, and cacti are sturdy in their natural habitat. Another part of our plan was to add sliding hatch in the back, which would help us access the arduino and the electrical parts comfortably. The final product ended up looking as planned, but one thing that could be worked on is the opening at the top. Closing it would help protect the electronics just a bit better.
 
+![](plan.png)
+
 ### Images of The Final Product <a name="imagesFinal"></a>
 
 ![](catfinal.jpeg)
@@ -22,6 +24,8 @@ For this assignment, we had to create a body for the platform robots. Our concep
 ### Pictures of Work in Progress + Plans <a name="imagesWIP"></a>
 
 ![](wip.jpeg)
+![](wip1.jpg)
+![](wip2.jpg)
 
 ### Remote Control Code
 

@@ -1,4 +1,8 @@
-#include <Servo.h>
+// Music Maker using nRF24L01 and potentiometer
+// Joseph Hong
+// Description: Code to transmit a potentiometer signal to change music tracks. Using base code.
+// NOTE: Need to rename MP3 files to "0.mp3", "1.mp3", etc.
+
 #include <SPI.h>
 #include <Adafruit_VS1053.h>
 #include <SD.h>
@@ -20,18 +24,12 @@
 #define CARDCS 4     // Card chip select pin
 // DREQ should be an Int pin, see http://arduino.cc/en/Reference/attachInterrupt
 #define DREQ 3       // VS1053 Data request, ideally an Interrupt pin
-
-// Servo myservo;
  
- 
-// const int LED1PIN = 1;
-// const int LED2PIN = 2;
 int pastData = 0;
 int currentTrack = 0;
 int totalTrackCount = 7;
 int currentTrackData = 0;
 bool startFresh = true;
-// int pastTrack = 0;
 
 // nRF24L01 uses SPI which is fixed on pins 11, 12, and 13.
 // It also requires two other signals
@@ -85,12 +83,6 @@ Adafruit_VS1053_FilePlayer musicPlayer = Adafruit_VS1053_FilePlayer(SHIELD_RESET
     // If DREQ is on an interrupt pin (on uno, #2 or #3) we can do background
     // audio playing
     musicPlayer.useInterrupt(VS1053_FILEPLAYER_PIN_INT);  // DREQ int
-    
-    // set up LEDs
-    // pinMode(LED1PIN, OUTPUT);
-    // pinMode(LED2PIN, OUTPUT);
-    // set up servo
-    // myservo.attach(3);
 
     // RF24 setup
     if (!radio.begin()) {
@@ -129,16 +121,8 @@ Adafruit_VS1053_FilePlayer musicPlayer = Adafruit_VS1053_FilePlayer(SHIELD_RESET
         currentTrackData = data;
         startFresh = false;
       }
-      if(data%10 == 0){
-        // digitalWrite(LED1PIN, LOW);
-        // digitalWrite(LED2PIN, LOW);
-      }
-      // if potentiometer is turned, take the value and map to motor
+      // if potentiometer is turned, take the value and map music track
       // if((pastData-100) < data && data < (pastData+100)){
-        // int value = map(data, 0, 10230, 90, 180);
-        if(pastData != data){
-          // myservo.write(value);
-        }
         // check if track is the same. if not, update
         int track = int(map(data, 0, 10234, 0, totalTrackCount));
         Serial.println(track);
@@ -156,21 +140,6 @@ Adafruit_VS1053_FilePlayer musicPlayer = Adafruit_VS1053_FilePlayer(SHIELD_RESET
         }
       // }
       pastData = data;
-
-    // take the value of whatever is left to change the light of the LEDs
-    // switch (data%10) {
-    //   case B00000001:
-    //     digitalWrite(LED1PIN, HIGH);
-    //     break;
-    //   case B00000010:
-    //     digitalWrite(LED2PIN, HIGH);
-    //     break;
-    //   case B00000011:
-    //     digitalWrite(LED1PIN, HIGH);
-    //     digitalWrite(LED2PIN, HIGH);
-    //     break;
-    // }
-    // delay(5);
     }
   
   }

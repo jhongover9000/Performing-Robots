@@ -155,7 +155,7 @@ Here is a list of everything done to get to the final robot:
 ## Final Robot Version <a name="Final"></a>
 
 and here is our final product in action! The production was a success :> 
-![](/media/final.jpg)
+![](media/final.jpg)
 ![](/media/flamefinal.jpg)
 
 

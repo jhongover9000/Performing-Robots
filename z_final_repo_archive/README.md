@@ -34,10 +34,10 @@ These progress reports are added as progress on the robot is being made. The goa
 
 We started by building the base. We cut a piece of wood at the scene shop and sanded it down to make smooth edges. Before adding the motors, we also created openings for the wheels to fit in.
 
-![](/media/platform1.png)
+![](media/platform1.png)
 The next step was to assemble the platform! Aaaand TADA!!
 
-![](/media/platform2.png)
+![](media/platform2.png)
 
 ### Progress Report 2 <a name="report2"></a>
 
@@ -45,7 +45,7 @@ The next step was to assemble the platform! Aaaand TADA!!
 
 We started building our robot! We found L shaped cardboard pieces around the lab and sawed them to a uniform size. These pieces will form our robot's skeleton. Then using supports between each L shaped corner piece, we glued them onto the platform! 
 
-![](/media/skeleton1.png)
+![](media/skeleton1.png)
 
 ### Progress Report 3 <a name="report3"></a>
 
@@ -53,11 +53,11 @@ We started building our robot! We found L shaped cardboard pieces around the lab
 
 This week's progress was very slow and a little bit disappointing. We had a final project due during the weekend which meant we couldn't do much. We attached cardboard supports on each corner to be able to glue on the body.
 
-![](/media/supports1.jpeg)
-![](/media/supports2.jpeg)
+![](media/supports1.jpeg)
+![](media/supports2.jpeg)
 
 We also found a big cardboard piece that we want to use for the body of the robot. 
-![](/media/body1.jpeg)
+![](media/body1.jpeg)
 
 **Goals for This Upcoming Week**:
 - Finish the Body
@@ -70,10 +70,10 @@ We also found a big cardboard piece that we want to use for the body of the robo
 
 Today we had to take off our supports and add more support to them, as we found out that there was no way for us to stabilize them using only hot glue. The Professor helped us bend the brackets back to shape. We drilled holes into the wooden platform and into the supports (after marking out spots, of course).
 
-![](/media/brackets1.jpeg)
+![](media/brackets1.jpeg)
 ![](/brackets2.jpeg)
 
-### Progress Report 5 <a name="report5"></media/a>
+### Progress Report 5 <a name="report5"><media/a>
 
 **29th of November 2022**
 
@@ -83,11 +83,11 @@ Big progress made today!
 - After this, we cut the correct length and width for the front and sides of our robot. Then we secured everything with hot glue.
 - We also drilled into the servo arms that we're going to use.
 
-![](/media/batterpack.jpeg)
-![](/media/supports3.jpeg)
-![](/media/measuring.jpeg)
-![](/media/bottombody.jpeg)
-![](/media/servoarmdrill.jpeg)
+![](media/batterpack.jpeg)
+![](media/supports3.jpeg)
+![](media/measuring.jpeg)
+![](media/bottombody.jpeg)
+![](media/servoarmdrill.jpeg)
 
 
 **Goals to Work on Next**:
@@ -105,14 +105,14 @@ For today, we finished and added quite a few things to the robot:
 - Shelf for the neo-pixel and the servos + any other mechanics we might need to be on top. This is also where the receiver(Ardiuno/NRF/MusicMaker) will rest.
 - A door for the back of the robot.
 
-![](/media/angerbody1.jpeg)
-![](/media/angerbody2.jpeg)
-![](/media/arm1.jpeg)
-![](/media/arm2.jpeg)
-![](/media/head2.jpeg)
-![](/media/velcro1.jpeg)
-![](/media/supportsplatform.jpeg)
-![](/media/servotest.jpeg)
+![](media/angerbody1.jpeg)
+![](media/angerbody2.jpeg)
+![](media/arm1.jpeg)
+![](media/arm2.jpeg)
+![](media/head2.jpeg)
+![](media/velcro1.jpeg)
+![](media/supportsplatform.jpeg)
+![](media/servotest.jpeg)
 
 ### Progress Report 7 <a name="report7"></a>
 
@@ -148,14 +148,14 @@ Here is a list of everything done to get to the final robot:
 - Coded the Transmitter/Receiver and integrated the control panel into the project (thank you professor!). 
   
 
-![](/media/paint.jpg)
-![](/media/bodyprogress.jpg)
-![](/media/eyes.jpg)
+![](media/paint.jpg)
+![](media/bodyprogress.jpg)
+![](media/eyes.jpg)
 
 ## Final Robot Version <a name="Final"></a>
 
 and here is our final product in action! The production was a success :> 
 ![](media/final.jpg)
-![](/media/flamefinal.jpg)
+![](media/flamefinal.jpg)
 
 
